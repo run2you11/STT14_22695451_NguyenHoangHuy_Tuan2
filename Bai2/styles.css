@@ -1,0 +1,53 @@
+.examplemenu {
+    color: pink;
+}
+
+.examplemenu h1 {
+    text-shadow: 4px 5px 5px rgba(255, 192, 203, 2);
+    text-align: center;
+    border-bottom: 2px solid pink;
+}
+
+body {
+    width: 80%;
+    border: 2px solid pink;
+    margin: auto;
+    padding: 0px;
+}
+
+a {
+    color: inherit;
+    /* Kế thừa màu sắc từ phần tử cha */
+    text-decoration: none;
+}
+
+nav {
+    color: white;
+    background-color: pink;
+    height: 40px;
+    margin: auto;
+    align-items: center;
+}
+
+nav ul li:not(:last-child) {
+    border-right: 1px solid #ff008c;
+}
+
+.menu li {
+    display: inline-table;
+    text-align: center;
+    padding-right: 30px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.title ul li {
+    list-style-type: none;
+    width: 150px;
+    border: 2px palevioletred solid;
+    border-radius: 10px;
+    background-color: pink;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
